@@ -1,0 +1,12 @@
+before_script:
+    - 'which ss-agent || (apt-get install -qq openssh-client)'
+    
+deploy_staging:
+    type: deploy
+    environment:
+        name: staging
+        url: mig.dcs.gla.ac.uk
+    script:
+        - ssh -i $SSH_PRIVATE_KEY euan@mig.dcs.gla.ac.uk "cd var/www/ && git checkout master && git pull origin master && exit"
+    only:
+        - master
