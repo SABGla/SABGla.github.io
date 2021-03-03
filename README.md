@@ -106,11 +106,11 @@ Moving "old news": if you want to move news previews to the "old news" section, 
 
 ### Themes
 
-Make sure, the references in the file itself are correctly resolved you've edited a themes page, as well as /themes/themes.html and header.html after. 
+Make sure, the references in the file itself are correctly resolved after you've edited the page, as well as /themes/themes.html and header.html after. 
 
 ### Projects
 
-Make sure, the references in the file itself are correctly resolved you've edited a themes page, as well as in /projects/projects.htlm and header.html.
+Make sure, the references in the file itself are correctly resolved after you've edited the page, as well as in /projects/projects.htlm and header.html.
 
 # Web Page Design
 
