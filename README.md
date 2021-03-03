@@ -1,6 +1,8 @@
 # Multimodal Interaction Group website
 
-Please use either git command controls to push your changes or use the Web IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
+Please use either git command controls to push your changes or use the Web IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. 
+
+In case you have any questions, do not hesitate to reach out to Gözel Shakeri (gozel.shakeri@glasgow.ac.uk).
 
 ## *** Attention *** 
 
@@ -60,7 +62,7 @@ Go to /publications/theses.html and copy paste this entry at the top of the list
 
 Make sure to update it accordingly. 
 
-### New News
+### New News Preview
 
 Go to /news/news.html and copy paste this entry at the top of the list. 
 
@@ -72,15 +74,15 @@ Go to /news/news.html and copy paste this entry at the top of the list.
 </li>
 ```
 
-Make sure to update it appropriately. 
+Make sure to update it appropriately. If you want the preview news to point towards a dedicated news page, please see next step. 
 
 ### New News Pages
 
-If you want to add a new page, please go to news/ and copy paste the file "news_YEAR_MONTH_TEMPLATE.html" into the folder /news. Rename the file and populate it with your news. 
+If you want to add more content to the above created news preview, please go to /news/ and copy paste the file "news_YEAR_MONTH_TEMPLATE.html" into the folder /news/. Rename the file and populate it with your news. Link the references in the preview inside of /news/news.html to the newly created news hmtl file. 
 
 ### New Theme Page
 
-Go to /themes and copy paste "themes_TEMPLATE.html", rename appropriately, and populate with information. Then go to /themes/themes.html and add a link to the newly created theme (see file for examples); finally, go in header.html, and add a new link in the navigation bar to the newly created theme.  
+Go to /themes and copy paste "themes_TEMPLATE.html", rename appropriately, and populate with information. Then go to /themes/themes.html and add a link to the newly created theme (see file for examples); finally, go in header.html, and add a new reference to your theme page in the navigation bar.
 
 ### New Project
 
@@ -90,11 +92,21 @@ Go to /projects and copy paste "projects_TEMPLATE.html", rename appropriately, a
 
 ### Publications
 
+Go to /publications/publications.html and edit the file. Make sure, the count of publications is correct after doing so. If you want to add a new publication, see above. 
+
 ### Thesis
+
+Go to /publications/theses.html and edit the file. If you want to add a new thesis, see above. 
 
 ### News Pages
 
+Go to /news/news.html and edit the file. 
+
+Moving "old news": if you want to move news previews to the "old news" section, please cut out the section you want to move and paste it at the top of the news list in /news/old_news.html. Make sure, you resolve references to any html files as moving the file might have broken them. 
+
 ### Themes
+
+
 
 ### Projects
 
@@ -133,6 +145,7 @@ Root
         - themes
 
 
+# Web Page Design
 
 Verti by HTML5 UP
 html5up.net | @ajlkn
