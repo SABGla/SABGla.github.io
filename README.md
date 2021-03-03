@@ -2,6 +2,10 @@
 
 Please use either git command controls to push your changes or use the Web IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
 
+## *** Attention *** 
+
+Do not add any personal / sensitive / classified information in this GitLab repository! All the information here is public on the MIG server. 
+
 ## Adding 
 
 ### Members To GitLab
@@ -56,7 +60,7 @@ Go to /publications/theses.html and copy paste this entry at the top of the list
 
 Make sure to update it accordingly. 
 
-### News
+### New News
 
 Go to /news/news.html and copy paste this entry at the top of the list. 
 
@@ -70,11 +74,11 @@ Go to /news/news.html and copy paste this entry at the top of the list.
 
 Make sure to update it appropriately. 
 
-### News Pages
+### New News Pages
 
 If you want to add a new page, please go to news/ and copy paste the file "news_YEAR_MONTH_TEMPLATE.html" into the folder /news. Rename the file and populate it with your news. 
 
-### Themes
+### New Theme Page
 
 
 
