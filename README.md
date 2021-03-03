@@ -82,7 +82,7 @@ If you want to add more content to the above created news preview, please go to 
 
 ### New Theme Page
 
-Go to /themes and copy paste "themes_TEMPLATE.html", rename appropriately, and populate with information. Then go to /themes/themes.html and add a link to the newly created theme (see file for examples); finally, go in header.html, and add a new reference to your theme page in the navigation bar.
+Go to /themes and copy paste "themes_TEMPLATE.html", rename appropriately, and populate with information. Then go to /themes/themes.html and add a link to the newly created theme (see file for examples); finally, go in header.html, and add a new reference to your theme page in the navigation bar. Try and make sure it's alphabetically ordered.
 
 ### New Project
 
@@ -106,7 +106,7 @@ Moving "old news": if you want to move news previews to the "old news" section, 
 
 ### Themes
 
-Make sure, the references in the file itself are correctly resolved after you've edited the page, as well as /themes/themes.html and header.html after. 
+Make sure, the references in the file itself are correctly resolved after you've edited the page, as well as /themes/themes.html and header.html after. Try and make sure things are alphabetically ordered.
 
 ### Projects
 
