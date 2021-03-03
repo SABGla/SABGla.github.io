@@ -2,39 +2,51 @@
 
 Please use either git command controls to push your changes or use the IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
 
-##Structure
+##Adding People 
+
+###To GitLab
+
+Go to https://git.dcs.gla.ac.uk/mig/website/-/project_members and choose the “invite member” view. Use “Maintainer” as role as maintainers have the most permissions, followed by the owner of the group. 
+
+###To Website
+
+Go to /people.html and copy paste this entry to the end of the appropriate list (e.g. faculty, post-doc, phd student).
+
+
+
+##Structure of Webpages
 
 The internal structure is based on the website navigation structure. 
 
 Root
     • index.html
     • news
-        ◦ news.html
-        ◦ … 
-        ◦ news_TEMPLATE.html
+        - news.html
+        - … 
+        - news_TEMPLATE.html
     • people.html
     • publications
-        ◦ publications.html
-        ◦ theses.html
+        - publications.html
+        - theses.html
     • projects 
-        ◦ projects.html 			
-        ◦ projects_completed.html 
-        ◦ completed
-            ▪ projects_abbi.html
-            ▪ …
-        ◦ projects_viajero.html
-        ◦ …
-        ◦ projects_TEMPLATE.html
+        - projects.html 			
+        - projects_completed.html 
+        - completed
+            - projects_abbi.html
+            - …
+        - projects_viajero.html
+        - …
+        - projects_TEMPLATE.html
     • themes
-        ◦ themes.html
-        ◦ themes_sustainable_food_interaction.html
-        ◦ …
-        ◦ themes_TEMPLATE.html
+        - themes.html
+        - themes_sustainable_food_interaction.html
+        - …
+        - themes_TEMPLATE.html
     • images
-        ◦ news
-        ◦ people
-        ◦ projects
-        ◦ themes
+        - news
+        - people
+        - projects
+        - themes
 
 
 
