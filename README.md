@@ -1,6 +1,6 @@
 # Multimodal Interaction Group website
 
-Please use either git command controls to push your changes or use the IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
+Please use either git command controls to push your changes or use the Web IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
 
 ## Adding 
 
@@ -38,11 +38,45 @@ Go to /people.html and copy paste this entry to the end of the appropriate list 
 
 ### New Publication
 
+Go to /publications/publications.html and copy paste this entry at the top of the appropriate year. 
+
+```
+<li class="mig-papers-entry"><span class="mig-papers-author">Last, F., Last, F., Last, F.</span>: <span class="mig-papers-title">Amazing Paper Title.</span> In <span class="mig-papers-publication">Amazing Venue</span>, 2021.</li>
+```
+
+Make sure to update the count on total papers that year after you add your entries. 
+
 ### New Thesis
+
+Go to /publications/theses.html and copy paste this entry at the top of the list. 
+
+```
+<li class="mig-papers-entry"><i class="fa fa-graduation-cap"></i>&nbsp;<span class="mig-papers-author">Ferguson, J.</span>: <span class="mig-papers-title">Investigating perceptual congruence between information and sensory parameters in auditory and vibrotactile displays..</span> In <span class="mig-papers-publication">PhD Thesis</span>, University of Glasgow, 2020. <a class="papercite_doi" href="http://theses.gla.ac.uk/81675/"><i class="fa fa-external-link papercite_doi"></i>&nbsp;Link.</a></li>
+```
+
+Make sure to update it accordingly. 
+
+### News
+
+Go to /news/news.html and copy paste this entry at the top of the list. 
+
+```
+<li>
+    <span class="date">YEAR <strong>MON</strong></span>
+    <h3><a href="#">TITLE</a></h3>
+    <p>Blurb with <a href="#">link</a> </p>
+</li>
+```
+
+Make sure to update it appropriately. 
 
 ### News Pages
 
+If you want to add a new page, please go to news/ and copy paste the file "news_YEAR_MONTH_TEMPLATE.html" into the folder /news. Rename the file and populate it with your news. 
+
 ### Themes
+
+
 
 ### Projects
 
