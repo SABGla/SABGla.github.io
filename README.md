@@ -1,14 +1,14 @@
-#Multimodal Interaction Group website
+# Multimodal Interaction Group website
 
 Please use either git command controls to push your changes or use the IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
 
-##Adding 
+## Adding 
 
-###Members To GitLab
+### Members To GitLab
 
 Go to https://git.dcs.gla.ac.uk/mig/website/-/project_members and choose the “invite member” view. Use “Maintainer” as role as maintainers have the most permissions, followed by the owner of the group. 
 
-###People To Website
+### People To Website
 
 Go to /people.html and copy paste this entry to the end of the appropriate list (e.g. faculty, post-doc, phd student).
 
