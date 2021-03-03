@@ -80,9 +80,11 @@ If you want to add a new page, please go to news/ and copy paste the file "news_
 
 ### New Theme Page
 
+Go to /themes and copy paste "themes_TEMPLATE.html", rename appropriately, and populate with information. Then go to /themes/themes.html and add a link to the newly created theme (see file for examples); finally, go in header.html, and add a new link in the navigation bar to the newly created theme.  
 
+### New Project
 
-### Projects
+Go to /projects and copy paste "projects_TEMPLATE.html", rename appropriately, and populate with information. Then go to /projects/projects.html and add a link to the newly created theme (see file for examples); finally, go in header.html, and add a new link in the navigation bar to the newly created theme.  
 
 ## Editing
 
