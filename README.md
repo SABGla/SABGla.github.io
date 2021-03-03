@@ -47,7 +47,7 @@ Go to /people.html and copy paste this entry to the end of the appropriate list 
 Go to /publications/publications.html and copy paste this entry at the top of the appropriate year. 
 
 ```
-<li class="mig-papers-entry"><span class="mig-papers-author">Last, F., Last, F., Last, F.</span>: <span class="mig-papers-title">Amazing Paper Title.</span> In <span class="mig-papers-publication">Amazing Venue</span>, 2021.</li>
+<li class="mig-papers-entry"><span class="mig-papers-author">Last, F., Last, F., Last, F.</span>: <span class="mig-papers-title">Amazing Paper Title.</span> In <span class="mig-papers-publication">Amazing Venue</span>, 2021. <a class="papercite_doi" href=""><i class="fa fa-external-link papercite_doi"></i>&nbsp;Link.</a></li>
 ```
 
 Make sure to update the count on total papers that year after you add your entries. 
