@@ -2,17 +2,61 @@
 
 Please use either git command controls to push your changes or use the IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
 
-##Adding People 
+##Adding 
 
-###To GitLab
+###Members To GitLab
 
 Go to https://git.dcs.gla.ac.uk/mig/website/-/project_members and choose the “invite member” view. Use “Maintainer” as role as maintainers have the most permissions, followed by the owner of the group. 
 
-###To Website
+###People To Website
 
 Go to /people.html and copy paste this entry to the end of the appropriate list (e.g. faculty, post-doc, phd student).
 
+```
+<!-- FirstName LastName -->
+<div id="person-wrapper">
+	<div id="person" class="personbox container">
+		<div class="row">
+			<div class="col-10 col-12-medium">
+			
+			<h2>First Last</h2>
+			<p>Some blurb about the person. </p>
+			<a href="mailto:fist.last@glasgow.ac.uk">first.last@glasgow.ac.uk</a></br>
+			<a href="https://personal.website">https://personal.website</a></br>
+			<a href="https://twitter.com/name"><i class="fab fa-twitter"></i>&nbsp;<span 				class="label">@name</span></a>
+			<a href="https://www.linkedin.com/link"><i class="fab fa-				
+			linkedin"></i>&nbsp;<span class="label">First Last</span></a>
+			</div>
 
+			<div class="col-2 col-12-medium">
+				<a href="#" class="image featured" style="margin: 0 0 0 0;"><img 						src="http://mig.dcs.gla.ac.uk/images/people/name.png" alt="" /></a>
+			</div>
+		</div>
+	</div>
+</div>
+```
+
+### New Publication
+
+### New Thesis
+
+### News Pages
+
+### Themes
+
+### Projects
+
+## Editing
+
+### Publications
+
+### Thesis
+
+### News Pages
+
+### Themes
+
+### Projects
 
 ##Structure of Webpages
 
