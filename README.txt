@@ -1,3 +1,43 @@
+#Multimodal Interaction Group website
+
+Please use either git command controls to push your changes or use the IDE here in Gitlab. This way, we can keep track of changes, and approve merge requests. In case you have questions, email gozel.shakeri@glasgow.ac.uk. 
+
+##Structure
+
+The internal structure is based on the website navigation structure. 
+
+Root
+    • index.html
+    • news
+        ◦ news.html
+        ◦ … 
+        ◦ news_TEMPLATE.html
+    • people.html
+    • publications
+        ◦ publications.html
+        ◦ theses.html
+    • projects 
+        ◦ projects.html 			
+        ◦ projects_completed.html 
+        ◦ completed
+            ▪ projects_abbi.html
+            ▪ …
+        ◦ projects_viajero.html
+        ◦ …
+        ◦ projects_TEMPLATE.html
+    • themes
+        ◦ themes.html
+        ◦ themes_sustainable_food_interaction.html
+        ◦ …
+        ◦ themes_TEMPLATE.html
+    • images
+        ◦ news
+        ◦ people
+        ◦ projects
+        ◦ themes
+
+
+
 Verti by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
