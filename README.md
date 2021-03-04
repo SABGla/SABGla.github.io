@@ -8,7 +8,7 @@ In case you have any questions, do not hesitate to reach out to Gözel Shakeri (
 
 - Do not add any personal / sensitive / classified information in this GitLab repository! All the information here is public on the MIG server. 
 - Use either git command line commands or the Web IDE here on GitLab
-- Push your changes to a branch, open a merge request, and ask somebody to review & merge your changes
+- Push your changes to the master branch; I trust everybody has basic git and html knowledge? 
 
 ## Adding 
 
