@@ -14,7 +14,7 @@ In case you have any questions, do not hesitate to reach out to Gözel Shakeri (
 
 ### Members To GitLab
 
-Go to https://git.dcs.gla.ac.uk/mig/website/-/project_members and choose the “invite member” view. Use “Maintainer” as role as maintainers have the most permissions, followed by the owner of the group. 
+Go to MIG Website > Members (or navigate to https://git.dcs.gla.ac.uk/mig/website/-/project_members) and choose the “invite member” view, and invite (via email if person does not have a GitLab account yet). Use “Maintainer” as role as maintainers have the most permissions. 
 
 ### People To Website
 
