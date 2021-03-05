@@ -4,11 +4,20 @@ Please use either git command controls to push your changes or use the Web IDE h
 
 In case you have any questions, do not hesitate to reach out to Gözel Shakeri (gozel.shakeri@glasgow.ac.uk).
 
+Please feel free to change ANYTHING you want to. If you think something is not correct, change it. If you think the tips and tricks in this document are rubbish, change them. 
+
 ## *** Attention *** 
 
 - Do not add any personal / sensitive / classified information in this GitLab repository! All the information here is public on the MIG server. 
 - Use either git command line commands or the Web IDE here on GitLab
 - Push your changes to the master branch; I trust everybody has basic git and html knowledge? 
+
+## To do's / Error Log
+
+- populate projects completed before 2013
+- Paddy: add project 
+- 
+
 
 ## Adding 
 
