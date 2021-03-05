@@ -4,7 +4,7 @@ before_script:
 deploy_staging:
     type: deploy
     tags: 
-        - shell
+        - docker
     environment:
         name: staging
         url: mig.dcs.gla.ac.uk
