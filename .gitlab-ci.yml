@@ -12,6 +12,6 @@ deploy_staging:
         name: staging
         url: mig.dcs.gla.ac.uk
     script:
-        - ssh -i $SSH_PRIVATE_KEY euan@mig.dcs.gla.ac.uk "cd var/www/ && git checkout master && git pull origin master && exit"
+        - ssh -i $SSH_PRIVATE_KEY euan@mig.dcs.gla.ac.uk "cd /var/www/ && git checkout master && git pull origin master && exit"
     only:
         - master
