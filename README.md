@@ -14,6 +14,7 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 
 ## To do's / Error Log
 
+- http://mig.dcs.gla.ac.uk/open-letter-shedl/
 - populate projects completed before 2013
 - Paddy: add project 
 - 
