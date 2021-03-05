@@ -1,4 +1,8 @@
-image: openssh-client
+image: debian
+
+before_script:
+    - "apt-get update -qq"
+    - "apt-get install -qq openssh-client"
     
 deploy_staging:
     type: deploy
