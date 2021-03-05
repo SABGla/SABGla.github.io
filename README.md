@@ -17,7 +17,8 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 - http://mig.dcs.gla.ac.uk/open-letter-shedl/
 - populate projects completed before 2013
 - Paddy: add project 
-- 
+- There's some weird characters in some of the publications ( e.g. â€“ CHI â€™ ) which could be fixed 
+-
 
 
 ## Adding 
