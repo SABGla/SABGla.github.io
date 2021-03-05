@@ -1,6 +1,4 @@
-image: debian
-before_script:
-    - 'which ss-agent || (apt-get install -qq openssh-client)'
+image: openssh-client
     
 deploy_staging:
     type: deploy
