@@ -3,6 +3,7 @@ image: debian
 before_script:
     - "apt-get update -qq"
     - "apt-get install -qq openssh-client"
+    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
     
 deploy_staging:
     type: deploy
