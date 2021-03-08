@@ -18,6 +18,7 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 - populate projects completed before 2013
 - Paddy: add project 
 - There's some weird characters in some of the publications ( e.g. â€“ CHI â€™ ) which could be fixed 
+- Fix the dead links at the bottom of the people page (past members links)
 -
 
 
