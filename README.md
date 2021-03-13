@@ -14,7 +14,7 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 
 ## To do's / Error Log
 
-- http://mig.dcs.gla.ac.uk/open-letter-shedl/
+- MAKE MOBILE FRIENDLY! 
 - populate projects completed before 2013
 - Paddy: add project 
 - There's some weird characters in some of the publications ( e.g. â€“ CHI â€™ ) which could be fixed 
