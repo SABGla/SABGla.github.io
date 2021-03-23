@@ -20,7 +20,7 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 - There's some weird characters in some of the publications ( e.g. â€“ CHI â€™ ) which could be fixed 
 - Fix the dead links at the bottom of the people page (past members links)
 - remove .html from urls -> engine on in .htaccess & remove .html from all hrefs
-- rename /images to /content & updated links in files accordingly
+- rename /contents to /content & updated links in files accordingly
 
 
 ## Adding 
@@ -50,7 +50,7 @@ Go to /people.html and copy paste this entry to the end of the appropriate list 
 			</div>
 
 			<div class="col-2 col-12-medium">
-				<a href="#" class="image featured" style="margin: 0 0 0 0;"><img src="http://mig.dcs.gla.ac.uk/images/people/name.png" alt="" /></a>
+				<a href="#" class="image featured" style="margin: 0 0 0 0;"><img src="http://mig.dcs.gla.ac.uk/contents/people/name.png" alt="" /></a>
 			</div>
 		</div>
 	</div>
