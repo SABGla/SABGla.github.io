@@ -20,8 +20,6 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 - There's some weird characters in some of the publications ( e.g. â€“ CHI â€™ ) which could be fixed 
 - Fix the dead links at the bottom of the people page (past members links)
 - remove .html from urls -> engine on in .htaccess & remove .html from all hrefs
-- rename /contents to /content & updated links in files accordingly
-
 
 ## Adding 
 
