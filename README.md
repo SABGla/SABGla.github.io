@@ -11,6 +11,7 @@ Please feel free to change ANYTHING you want to. If you think something is not c
 - Do not add any personal / sensitive / classified information in this GitLab repository! All the information here is public on the MIG server. 
 - Use either git command line commands or the Web IDE here on GitLab
 - Push your changes to the master branch; I trust everybody has basic git and html knowledge? 
+- don't change following files / folders: .gitlab-ci.yml, .htaccess, assets/
 
 ## To do's / Error Log
 
