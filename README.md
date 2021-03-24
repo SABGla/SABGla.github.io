@@ -29,7 +29,7 @@ Go to MIG Website > Members (or navigate to https://git.dcs.gla.ac.uk/mig/websit
 
 ### People To Website
 
-Go to /people.html and copy paste this entry to the end of the appropriate list (e.g. faculty, post-doc, phd student).
+Go to /people.html and copy paste this entry to the end of the appropriate list (e.g. faculty, post-doc, phd student). Make sure, the image you upload is square (e.g. 200px x 200px).  
 
 ```
 <!-- FirstName LastName -->
