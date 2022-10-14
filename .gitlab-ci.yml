@@ -11,7 +11,7 @@ before_script:
     - chmod 700 ~/.ssh/gitlab_rsa
     
 deploy_staging:
-    type: deploy
+    stage: deploy
     tags: 
         - docker
     environment:
