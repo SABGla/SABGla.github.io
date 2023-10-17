@@ -1,23 +1,24 @@
-image: debian
+image: ruby:2.7
 
-before_script:
-    - "apt-get update -qq"
-    - "apt-get install -qq openssh-client"
-    - mkdir -p ~/.ssh
-    - chmod 700 ~/.ssh
-    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
-    - chmod 644 ~/.ssh/known_hosts
-    - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/gitlab_rsa
-    - chmod 700 ~/.ssh/gitlab_rsa
+
+#before_script:
+#    - "apt-get update -qq"
+#    - "apt-get install -qq openssh-client"
+#    - mkdir -p ~/.ssh
+#    - chmod 700 ~/.ssh
+#    - echo "$SSH_KNOWN_HOSTS" >> ~/.ssh/known_hosts
+#    - chmod 644 ~/.ssh/known_hosts
+#    - echo "$SSH_PRIVATE_KEY" >> ~/.ssh/gitlab_rsa
+#    - chmod 700 ~/.ssh/gitlab_rsa
     
-deploy_staging:
-    stage: deploy
-    tags: 
-        - docker
-    environment:
-        name: staging
-        url: mig.dcs.gla.ac.uk
-    script:
-        - ssh -i ~/.ssh/gitlab_rsa euan@mig.dcs.gla.ac.uk "cd /var/www/ && git checkout master && git pull origin master && exit"
-    only:
-        - master
+#deploy_staging:
+#    stage: deploy
+#    tags: 
+#        - docker
+#    environment:
+#        name: staging
+#        url: mig.dcs.gla.ac.uk
+#    script:
+#        - ssh -i ~/.ssh/gitlab_rsa euan@mig.dcs.gla.ac.uk "cd /var/www/ && git checkout master && git pull origin master && exit"
+#    only:
+#        - master
