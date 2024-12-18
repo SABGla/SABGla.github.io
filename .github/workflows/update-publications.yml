@@ -1,0 +1,30 @@
+name: Update ORCID Publications
+
+on:
+  schedule:
+    - cron: '0 0 * * 1' # Runs every Monday at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests jinja2
+
+      - name: Run the script
+        run: python update_publications.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .  # Ensure publications.html is in the root
