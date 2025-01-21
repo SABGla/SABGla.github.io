@@ -316,7 +316,8 @@ html_content = template.render(publications_by_year=publications_by_year, sorted
 os.makedirs("publications", exist_ok=True)
 
 # Save the generated HTML in the `publications` directory
-with open("publications/index.html", "w") as f:
+output_file = os.path.join("publications", "index.html")
+with open(output_file, "w", encoding="utf-8") as f:
     f.write(html_content)
 
 print("Publications page has been updated successfully!")
