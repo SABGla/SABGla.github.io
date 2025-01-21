@@ -31,8 +31,8 @@ def fetch_orcid_publications(orcid_id):
             publication_date = work.get('publication-date', None)
 	
             year = None
-	    if publication_date and 'year' in publication_date:
-		    year = int(publication_date['year']['value'])
+            if publication_date and 'year' in publication_date:
+                year = int(publication_date['year']['value'])
             authors = []
 
             # Extract authors from contributors, if available
