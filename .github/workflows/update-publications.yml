@@ -1,0 +1,32 @@
+name: Update Publications
+
+on:
+  push:
+    branches:
+      - IainCE-2025-auto-papers  # Change to the branch you're testing on
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install requests jinja2
+
+      - name: Run publication update script
+        run: python update_publications.py
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./publications
