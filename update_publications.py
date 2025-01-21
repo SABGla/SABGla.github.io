@@ -26,7 +26,13 @@ def fetch_orcid_publications(orcid_id):
         for group in data['works']['group']:
             work = group['work-summary'][0]  # First summary entry in the group
             title = work['title']['title']['value']
-            year = int(work['publication-date']['year']['value']) if 'year' in work['publication-date'] else None
+
+            #safety check for publication date
+            publication_date = work.get('publication-date', None)
+	
+            year = None
+	    if publication_date and 'year' in publication_date:
+		    year = int(publication_date['year']['value'])
             authors = []
 
             # Extract authors from contributors, if available
