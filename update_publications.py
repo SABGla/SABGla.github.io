@@ -321,3 +321,5 @@ with open(output_file, "w", encoding="utf-8") as f:
     f.write(html_content)
 
 print("Publications page has been updated successfully!")
+print(f"Updated {output_file}")
+
