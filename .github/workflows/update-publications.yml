@@ -5,6 +5,8 @@ on:
     branches:
       - IainCE-2025-auto-papers  # Change to the branch you're testing on
   workflow_dispatch:  # Allow manual triggers
+  schedule:
+    - cron: '0 0 * * 0'  # Runs at midnight (00:00) every Sunday (day 0)
 
 jobs:
   update-publications:
