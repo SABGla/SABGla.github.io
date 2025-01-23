@@ -122,21 +122,24 @@ template_content = '''<!DOCTYPE HTML>
 										<a href="#1992">1992 (2 papers)</a></br>
 
                         {% for year in sorted_years %}
-                        <h3><a name="{{ year }}">{{ year }}</a></h3>
-                        <ul>
-                            {% for pub in publications_by_year[year] %}
-                            <li class="mig-papers-entry">
-                                <span class="mig-papers-author">{{ ", ".join(pub.authors) }}</span>: 
-                                <span class="mig-papers-title">{{ pub.title }}</span>. 
-                                {% if pub.doi %}
-                                <a class="papercite_doi" href="https://doi.org/{{ pub.doi }}" target="_blank">
-                                    <i class="fa fa-external-link papercite_doi"></i>&nbsp;Link.
-                                </a>
-                                {% endif %}
-                            </li>
-                            {% endfor %}
-                        </ul>
-                        {% endfor %}
+                            <h3><a name="{{ year }}">{{ year }}</a></h3>
+    			    <ul>
+        		    	{% for pub in publications_by_year[year] %}
+				<li class="mig-papers-entry">
+				    <span class="mig-papers-author">{{ ", ".join(pub.authors) }}</span>: 
+				    <span class="mig-papers-title">{{ pub.title }}</span>. 
+				    {% if pub.details %}
+					<span class="mig-papers-publication">{{ pub.details }}</span>, {{ pub.year }}.
+				    {% endif %}
+				    {% if pub.doi %}
+				    <a class="papercite_doi" href="https://doi.org/{{ pub.doi }}" target="_blank">
+					<i class="fa fa-external-link papercite_doi"></i>&nbsp;Link.
+				    </a>
+				    {% endif %}
+				</li>
+				{% endfor %}
+			    </ul>
+			{% endfor %}
 
                         <ul>
 <li class="mig-papers-entry"><span class="mig-papers-author">Ruoqui Wang, Haifeng Zhang, Shaun Alexander Macdonald and Patrizia Di Campli San Vito</span>: <span class="mig-papers-title">Increasing Heart Rate and Anxiety Level with Vibrotactile and Audio Presentation of Fast Heartbeat.</span> To appear in <span class="mig-papers-publication">Proceedings of 25th International Conference on Multimodal Interaction (ICMI 2023)</span>, 2023.<a class="papercite_doi" href="https://eprints.gla.ac.uk/305397/"><i class="fa fa-external-link papercite_doi"></i>&nbsp;Link.</a></</li>
