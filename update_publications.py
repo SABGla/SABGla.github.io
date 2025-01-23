@@ -46,8 +46,11 @@ def fetch_orcid_publications(orcid_id):
                  if id['external-id-type'] == 'doi'), None
             )
 
-            # Extract publication details (e.g., journal/conference)
-            details = work.get('journal-title', {}).get('value', None)
+            # Extract publication details (e.g., journal/conference title)
+            journal_title = work.get('journal-title')  # Fetch journal-title safely
+            details = None  # Default to None if not available
+            if journal_title and isinstance(journal_title, dict):  # Check for valid structure
+                details = journal_title.get('value', None)
 
             # Only include publications from 2023 to 2099
             if year and 2023 <= year <= 2099:
